@@ -77,4 +77,15 @@ CREATE INDEX idx_order_items_product_id ON order_items(product_id);
 ##  Cómo Ejecutar
 1. Crear base de datos y tablas:
 bash mysql -u usuario -p < schema.sql
-2. Ejecutar consultas analíticas: mysql -u usuario -p < queries.sql
+2. Ejecutar consultas analíticas:
+3. mysql -u usuario -p < queries.sql
+
+## Autor
+
+Paula Ramos Delgado 
+
+[LinkedIn](www.linkedin.com/in/paula-ramos-delgado-1bb425163)
+
+[Github](https://github.com/PaulaRD5)
+
+[Email](ramosdelgado@hotmail.es)
