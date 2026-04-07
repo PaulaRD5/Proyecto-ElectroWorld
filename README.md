@@ -31,9 +31,17 @@ Este proyecto demuestra habilidades en SQL, modelado de datos, CTEs y optimizaci
 - **customers** – Información de clientes
 - **products** – Inventario de productos
 - **orders** – Pedidos realizados por clientes
-- **order_items** – Detalle de los productos de cada pedido ### Relaciones - orders.customer_id → customers.customer_id - order_items.order_id → orders.order_id - order_items.product_id → products.product_id > Claves primarias, foráneas y
+- **order_items** – Detalle de los productos de cada pedido
 
-**índices optimizados** para JOINs y filtros frecuentes. --- ## Índices Clave Se crearon índices para mejorar el rendimiento de las consultas:
+### Relaciones 
+- orders.customer_id → customers.customer_id
+- order_items.order_id → orders.order_id
+- order_items.product_id → products.product_id > Claves primarias, foráneas y
+
+**índices optimizados** para JOINs y filtros frecuentes. 
+
+--- 
+## Índices Clave Se crearon índices para mejorar el rendimiento de las consultas:
 
 sql
 CREATE INDEX idx_orders_customer_id ON orders(customer_id);
