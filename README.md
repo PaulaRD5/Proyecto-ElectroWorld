@@ -19,9 +19,13 @@ Este proyecto demuestra habilidades en SQL, modelado de datos, CTEs y optimizaci
 
 ## Estructura de Archivos 
 |ElectroWorld 
+
 │ 
+
 ├─ schema.sql # Creación de tablas, inserción de datos y definición de índices 
+
 ├─ queries.sql # Consultas analíticas y actualizaciones 
+
 └─ README.md # Documentación del proyecto 
 
 --- 
